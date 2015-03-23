@@ -69,8 +69,7 @@ class SnakeGame extends PolymerElement {
     scoreBar.text = "Game Over, your score was ${score}. Click to retry.";
     streamsub = canvas.onClick.listen((event) => restartGame());
     
-    // Fire "score-updated" event to warn other components
-    this.fire("score-updated", detail: score);
+    // TODO : fire event
   }
   
   void restartGame() {
