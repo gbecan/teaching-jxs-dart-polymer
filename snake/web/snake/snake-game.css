@@ -1,0 +1,19 @@
+#snake_game {
+  width: 572px;
+  height: 396px;
+  background-image: url("http://blog.rikulo.org/static/files/tutorial/creating-snake/res/snake_bg.png"); 
+}
+
+#snake_game canvas {
+  margin-left: 86px;
+  margin-top: 70px;
+  border-width: 2px;
+  border-style: solid;
+  border-color:  black;
+  
+}
+
+#snake_game p {
+  margin-left: 86px;
+  margin-top: -5px;
+}

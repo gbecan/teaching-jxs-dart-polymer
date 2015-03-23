@@ -1,0 +1,15 @@
+name: 'snake'
+version: 0.0.1
+description: >
+  An absolute bare-bones web app.
+#author: <your name> <email@example.com>
+#homepage: https://www.example.com
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  browser: any
+  polymer: ">=0.12.0 <0.13.0"
+  rikulo_ui:
+transformers:
+- polymer:
+    entry_points: web/index.html
