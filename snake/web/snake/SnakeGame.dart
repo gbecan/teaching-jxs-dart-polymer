@@ -114,7 +114,7 @@ class SnakeGame extends PolymerElement {
       } else if(event.keyCode == 38) {
         // TODO : go up        
       } else if(event.keyCode == 40) {
-        // go down        
+        // TODO : go down        
       }
   }
   
